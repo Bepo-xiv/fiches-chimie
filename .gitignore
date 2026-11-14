@@ -1,0 +1,5 @@
+# Les fiches manuscrites restent privées : elles ne sont pas publiées avec l'app.
+*.pdf
+node_modules/
+.claude/
+*.log

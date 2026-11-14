@@ -1,0 +1,1 @@
+{"name":"fiches-chimie-organique","private":true,"type":"module","scripts":{"test":"node --test","publier":"node tools/preparer.mjs"}}
