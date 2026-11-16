@@ -5,6 +5,10 @@ flèche, révision au Pencil avec correction automatique des flèches, répétit
 carte des réactions avec recherche de chemins de synthèse, aide à la rétrosynthèse, comparaison de fiches,
 PDF manuscrits joints et annotés, éditeur de structures et de fiches.
 
+Deux écrans reprennent la fiche de référence « Réactions et réactifs inorganiques de la chimie organique » :
+**Réactifs** (230 fiches : ce que fait chaque réactif cité, quand l'utiliser, réactions liées) et **Index**
+(toutes les réactions citées, avec lien vers la fiche détaillée quand elle existe).
+
 100 % hors ligne, sans compte ni serveur. Sauvegarde et restauration par fichier.
 
 ## Démarrer

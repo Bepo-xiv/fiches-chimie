@@ -66,7 +66,7 @@ label.field > * { margin-top: 3px; color: var(--ink); font-size: 1rem; }
 #nav a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 2px; border-radius: 12px; color: var(--muted); text-decoration: none; font-size: .72rem; }
 #nav a.on { background: var(--accent-soft); color: var(--accent-ink); font-weight: 600; }
 #main { min-width: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; padding-top: env(safe-area-inset-top); }
-body[data-route="fiches"] #main, body[data-route="fiche"] #main { overflow: hidden; }
+body[data-route="fiches"] #main, body[data-route="fiche"] #main, body[data-route="reactifs"] #main { overflow: hidden; }
 @media (max-width: 640px) {
   #app { grid-template-columns: 1fr; grid-template-rows: 1fr auto; }
   #nav { grid-row: 2; flex-direction: row; justify-content: space-around; padding: 4px 4px calc(4px + env(safe-area-inset-bottom)); border-right: none; border-top: 1px solid var(--line); }
@@ -260,3 +260,11 @@ table.memo th, table.memo td { text-align: left; padding: 6px 10px; border-botto
 .set-block { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; margin-bottom: 14px; }
 .kv { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; font-size: .92rem; } .kv dt { color: var(--muted); } .kv dd { margin: 0; }
 @media (prefers-reduced-motion: reduce) { .arrow .shaft, .arrow .head { transition: none; } }
+
+/* Réactifs et index de la fiche de référence */
+.fam-head { padding: 6px 12px; font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--accent-ink); background: var(--surface-2); position: sticky; top: 0; z-index: 1; }
+.idx-part { margin-top: 22px; color: var(--accent-ink); border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
+.idx-sec { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 8px 12px; margin: 6px 0; }
+.idx-sec summary { cursor: pointer; padding: 4px 0; }
+.idx-group { margin: 6px 0 10px; } .idx-label { font-size: .85rem; font-weight: 600; color: var(--muted); margin-bottom: 2px; }
+@media (max-width: 640px) { #nav a { font-size: .58rem; } #nav a svg { width: 21px; height: 21px; } }

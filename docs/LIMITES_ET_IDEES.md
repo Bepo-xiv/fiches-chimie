@@ -17,6 +17,16 @@
 - Pas d'états de transition dessinés en perspective (chaise de Zimmerman-Traxler, bipyramide SN2) :
   ils sont décrits dans le texte.
 
+**Fiche de référence (écrans Réactifs et Index)**
+
+- L'index mentionne toutes les réactions citées dans la fiche de référence (plus de 1 700 noms distincts), mais seules
+  les 90 réactions de la base ont une fiche détaillée : les autres sont listées sans description.
+- Les 230 fiches réactifs couvrent tous les noms de la Liste 2 ; les sels jumeaux (même anion, cation différent),
+  les variantes isotopiques et quelques familles très proches partagent une fiche. Un test (`tests/reference.test.mjs`)
+  échoue si un réactif cité n'est rattaché à aucune fiche.
+- Les usages des réactifs sont rédigés de mémoire, en une ou deux phrases : ce ne sont pas des protocoles.
+- `data/reference.js` est généré à partir du PDF de référence : si le document change, il faut le régénérer.
+
 **Chimie calculée**
 
 - La carte relie chaque groupe de départ à chaque groupe d'arrivée d'une fiche : certains liens sont

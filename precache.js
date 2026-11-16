@@ -1,6 +1,6 @@
 // Fichier généré par tools/preparer.mjs : ne pas le modifier à la main.
 self.__PRECACHE = {
- "version": "bc832456e0",
+ "version": "4afd101540",
  "files": [
   "./",
   "./index.html",
@@ -27,6 +27,8 @@ self.__PRECACHE = {
   "./js/views/map.js",
   "./js/views/memo.js",
   "./js/views/pdf.js",
+  "./js/views/reagents.js",
+  "./js/views/refindex.js",
   "./js/views/retro.js",
   "./js/views/review.js",
   "./js/views/settings.js",
@@ -42,6 +44,11 @@ self.__PRECACHE = {
   "./data/r7-couplages.js",
   "./data/r8-protections.js",
   "./data/r9-radicalaire-medchem.js",
+  "./data/reactifs-1.js",
+  "./data/reactifs-2.js",
+  "./data/reactifs.js",
+  "./data/reference-liens.js",
+  "./data/reference.js",
   "./vendor/ocl-resources.json",
   "./vendor/openchemlib.js",
   "./vendor/pdf.min.mjs",

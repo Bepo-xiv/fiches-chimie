@@ -7,9 +7,11 @@ export const APP_VERSION = '1.0.0';
 
 const NAV = [
   ['#/', 'Fiches', 'M4 5h16v3H4zM4 10.5h16v3H4zM4 16h16v3H4z'],
+  ['#/reactifs', 'Réactifs', 'M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3M7.5 15h9'],
   ['#/reviser', 'Réviser', 'M12 4a8 8 0 1 0 8 8h-2.5A5.5 5.5 0 1 1 12 6.5V9l4-3.5L12 2z'],
   ['#/carte', 'Carte', 'M6 4a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zm12 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM12 15a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM8 7.5h8M7 9l4 6m6-6-4 6'],
   ['#/retro', 'Rétro', 'M20 11H8.8l4.6-4.6L12 5l-7 7 7 7 1.4-1.4L8.8 13H20z'],
+  ['#/index', 'Index', 'M5 6h1M9 6h10M5 12h1M9 12h10M5 18h1M9 18h10'],
   ['#/memo', 'Mémo', 'M6 3h9l4 4v14H6zM14 3v5h5M9 12h7M9 16h7'],
   ['#/reglages', 'Réglages', 'M12 8.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7zM12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M5 19l2-2M17 7l2-2'],
 ];
@@ -25,6 +27,8 @@ const lazy = {
   pdf: () => import('./views/pdf.js').then((m) => m.renderPdf),
   reglages: () => import('./views/settings.js').then((m) => m.renderSettings),
   memo: () => import('./views/memo.js').then((m) => m.renderMemo),
+  reactifs: () => import('./views/reagents.js').then((m) => m.renderReagents),
+  index: () => import('./views/refindex.js').then((m) => m.renderRefIndex),
 };
 
 export function parseHash(hash) {
