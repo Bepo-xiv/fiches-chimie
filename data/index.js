@@ -11,6 +11,10 @@ import r8 from './r8-protections.js';
 import r9 from './r9-radicalaire-medchem.js';
 import r10 from './r10-classiques-carbonyles.js';
 import r11 from './r11-classiques-divers.js';
+import r12 from './r12-classiques-heterocycles-metaux.js';
+import r13 from './r13-classiques-transpositions-radicaux.js';
+import r14 from './r14-classiques-enolates-organometalliques.js';
+import r15 from './r15-classiques-sigmatropiques-photochimie.js';
 
 export { GROUPS, CATEGORIES, CONFIDENCE } from './groups.js';
-export const REACTIONS = [...r1, ...r2, ...r3, ...r4, ...r5, ...r6, ...r7, ...r8, ...r9, ...r10, ...r11];
+export const REACTIONS = [...r1, ...r2, ...r3, ...r4, ...r5, ...r6, ...r7, ...r8, ...r9, ...r10, ...r11, ...r12, ...r13, ...r14, ...r15];

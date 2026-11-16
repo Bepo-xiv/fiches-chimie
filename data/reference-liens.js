@@ -38,6 +38,22 @@ alcoxymercuration=oxymercuration | hofmann-sand=oxymercuration | simmons-smith=s
 pcc=pcc | corey-suggs=pcc | meerwein-ponndorf-verley=mpv | oppenauer=mpv | corey-bakshi-shibata=cbs | cbs=cbs | corey-itsuno=cbs | reduction cbs=cbs
 favorskii=favorskii | nazarov=nazarov | fischer@H2=fischer-indole | paal-knorr=paal-knorr | pictet-spengler=pictet-spengler
 azoture → amine=staudinger | staudinger=staudinger | steglich=steglich | ritter=ritter | kumada-corriu=kumada
+hantzsch=hantzsch | skraup=skraup | doebner-miller=skraup | bischler-napieralski=bischler-napieralski | biginelli=biginelli | passerini=passerini | ugi=ugi
+pauson-khand=pauson-khand | [2+2+1]=pauson-khand | mcmurry=mcmurry | ullmann=ullmann | ullmann-goldberg=ullmann | chan-lam=chan-lam | chan-evans-lam=chan-lam
+glaser=glaser | hay=glaser | eglinton=glaser | hiyama=hiyama | hiyama-denmark=hiyama | stetter=stetter | prins=prins | cyclisation de prins=prins | minisci=minisci
+shapiro=shapiro | bamford-stevens=shapiro | arndt-eistert=arndt-eistert | wolff=arndt-eistert | schmidt=schmidt | lossen=lossen | pummerer=pummerer
+chugaev=chugaev | cope@A9=cope-elimination | hunsdiecker=hunsdiecker | borodin=hunsdiecker | cristol-firth=hunsdiecker | giese=giese | addition de giese=giese
+addition radicalaire de giese=giese | reimer-tiemann=reimer-tiemann | kolbe-schmitt=kolbe-schmitt | dakin=dakin | rosenmund=rosenmund
+bouveault-blanc=bouveault-blanc | eschweiler-clarke=eschweiler-clarke
+mukaiyama@C=mukaiyama-aldol | evans=evans-aldol | oxazolidinones d'evans=evans-aldol | tishchenko=tishchenko | darzens@C=darzens
+thorpe et thorpe-ziegler=thorpe-ziegler | thorpe-ziegler=thorpe-ziegler | thorpe=thorpe-ziegler | condensation acyloine=acyloine | acyloine=acyloine
+perkin=perkin | stobbe=stobbe | acide benzilique=benzilique | benzilique=benzilique | tebbe=tebbe | kulinkovich=kulinkovich
+hosomi-sakurai=sakurai | sakurai=sakurai | nozaki-hiyama-kishi=nhk | friedlander=friedlander | knorr@H2=knorr-pyrrole
+thiazoles de hantzsch=hantzsch-thiazole | oxazoles de robinson-gabriel=robinson-gabriel | robinson-gabriel=robinson-gabriel
+gattermann-koch=gattermann-koch | elimination-addition=benzyne | chichibabin=chichibabin | tiffeneau-demjanov=tiffeneau-demjanov
+wittig [2,3]=wittig-23 | mislow-evans=mislow-evans | overman=overman | meyer-schuster=meyer-schuster | meyer-schuster catalysee=meyer-schuster
+decarboxylation de barton=barton-decarboxylation | barton@A9=barton-decarboxylation | hofmann-loffler-freytag=hlf | norrish i et ii=norrish | norrish=norrish
+paterno-buchi=paterno-buchi | oxetanes par paterno-buchi=paterno-buchi | jacobsen-katsuki=jacobsen-epoxydation | epoxydation de jacobsen=jacobsen-epoxydation
 `;
 
 /** Clé de comparaison d'un nom de réaction. */

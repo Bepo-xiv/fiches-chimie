@@ -1,6 +1,6 @@
 # Fiches de chimie organique
 
-Application de fiches de réactions pour iPad et Apple Pencil : 120 réactions, mécanismes animés flèche par
+Application de fiches de réactions pour iPad et Apple Pencil : 180 réactions, mécanismes animés flèche par
 flèche, révision au Pencil avec correction automatique des flèches, répétition espacée, QCM, oral blanc,
 carte des réactions avec recherche de chemins de synthèse, aide à la rétrosynthèse, comparaison de fiches,
 PDF manuscrits joints et annotés, éditeur de structures et de fiches.

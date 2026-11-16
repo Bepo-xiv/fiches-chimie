@@ -1,6 +1,6 @@
 // Fichier généré par tools/preparer.mjs : ne pas le modifier à la main.
 self.__PRECACHE = {
- "version": "6386e773d6",
+ "version": "9d3222a632",
  "files": [
   "./",
   "./index.html",
@@ -38,6 +38,10 @@ self.__PRECACHE = {
   "./data/r1-substitution-elimination.js",
   "./data/r10-classiques-carbonyles.js",
   "./data/r11-classiques-divers.js",
+  "./data/r12-classiques-heterocycles-metaux.js",
+  "./data/r13-classiques-transpositions-radicaux.js",
+  "./data/r14-classiques-enolates-organometalliques.js",
+  "./data/r15-classiques-sigmatropiques-photochimie.js",
   "./data/r2-additions.js",
   "./data/r3-aromatique.js",
   "./data/r4-carbonyles.js",

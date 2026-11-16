@@ -4,13 +4,20 @@
 
 **Contenu**
 
-- 120 fiches détaillées : large, mais pas exhaustif. Absents notamment : chimie des sucres et des peptides en détail,
-  organocatalyse, photoredox, activation C–H, Hiyama, Ullmann, Chan-Lam, Shapiro, Wolff, Hantzsch, Skraup,
-  Pauson-Khand, McMurry, Bischler-Napieralski, Passerini et Ugi.
-- Les 30 fiches du lot « classiques » (fichiers `data/r10-*.js` et `data/r11-*.js`) ont été ajoutées en une fois :
-  leurs flèches ont été contrôlées atome par atome et quelques-unes vues à l’écran, mais pas toutes. Dans les étapes
-  de cyclisation (Fischer, Nazarov, Pictet-Spengler, Favorskii), la molécule est dessinée dépliée : la flèche qui
-  ferme le cycle est longue. Réduction CBS et couplage de Kumada : mécanisme décrit en texte, sans flèches.
+- 180 fiches détaillées : large, mais pas exhaustif. Absents notamment : chimie des sucres et des peptides en détail,
+  organocatalyse, photoredox, activation C–H, la plupart des synthèses d’hétérocycles moins courantes et des
+  réactions nommées rares (elles n’ont que leur résumé d’une ligne dans l’index).
+- Les 90 fiches des lots « classiques » (fichiers `data/r10-*.js` à `data/r15-*.js`) ont été ajoutées en trois fois :
+  leurs flèches ont été contrôlées atome par atome et la plupart vues à l’écran. Dans les étapes de cyclisation
+  (Fischer, Nazarov, Pictet-Spengler, Skraup, Bischler-Napieralski, Favorskii, Thorpe-Ziegler, Overman), la molécule
+  est dessinée dépliée : la flèche qui ferme le cycle est longue.
+- Mécanisme décrit en texte, sans flèches courbes : CBS, Kumada, Pauson-Khand, Ullmann, Chan-Lam, Glaser, Rosenmund,
+  aldol d’Evans, Kulinkovich, Nozaki-Hiyama-Kishi, Jacobsen-Katsuki. Les états de transition (Zimmerman-Traxler pour
+  Evans) ne sont pas dessinés.
+- Fiches en confiance « moyenne » : CBS, Julia-Kocienski, Pauson-Khand, Ullmann, Chan-Lam, Hiyama, Minisci, Lossen,
+  Kulinkovich, Jacobsen-Katsuki.
+- Quand l’index cite un nom ambigu, le lien pointe vers la fiche la plus proche : « Hantzsch » (rangé avec les
+  pyrroles) ouvre les dihydropyridines, « Wolff » ouvre Arndt-Eistert, « Bamford-Stevens » ouvre Shapiro.
 - Les fiches sont rédigées de mémoire d'après les connaissances de cours : chacune porte un niveau de confiance
   et une référence **à vérifier**. Les quantités, températures et durées sont des ordres de grandeur typiques,
   pas des protocoles : ne jamais manipuler sans consulter la littérature et les fiches de sécurité.
@@ -24,7 +31,7 @@
 **Fiche de référence (écrans Réactifs et Index)**
 
 - L'index mentionne toutes les réactions citées dans la fiche de référence (environ 1 560 noms distincts), mais seules
-  les 120 réactions de la base ont une fiche détaillée avec schéma et mécanisme. Les autres (environ 1 350) ont un
+  les 180 réactions de la base ont une fiche détaillée avec schéma et mécanisme. Les autres (environ 1 250) ont un
   résumé d'une ligne — ce que fait la réaction, réactifs et conditions — sans structure dessinée ni mécanisme
   (`data/resumes-*.js`). Un test échoue si une réaction citée n'a ni fiche ni résumé.
 - Ces résumés sont rédigés de mémoire et n'ont pas été relus contre la littérature. Les réactions rares ou anciennes
