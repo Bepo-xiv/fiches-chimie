@@ -1,6 +1,6 @@
 // Fichier généré par tools/preparer.mjs : ne pas le modifier à la main.
 self.__PRECACHE = {
- "version": "4afd101540",
+ "version": "6386e773d6",
  "files": [
   "./",
   "./index.html",
@@ -36,6 +36,8 @@ self.__PRECACHE = {
   "./data/index.js",
   "./data/memo.js",
   "./data/r1-substitution-elimination.js",
+  "./data/r10-classiques-carbonyles.js",
+  "./data/r11-classiques-divers.js",
   "./data/r2-additions.js",
   "./data/r3-aromatique.js",
   "./data/r4-carbonyles.js",
@@ -49,6 +51,15 @@ self.__PRECACHE = {
   "./data/reactifs.js",
   "./data/reference-liens.js",
   "./data/reference.js",
+  "./data/resumes-a.js",
+  "./data/resumes-b.js",
+  "./data/resumes-c.js",
+  "./data/resumes-d.js",
+  "./data/resumes-e.js",
+  "./data/resumes-fg.js",
+  "./data/resumes-h.js",
+  "./data/resumes-i.js",
+  "./data/resumes.js",
   "./vendor/ocl-resources.json",
   "./vendor/openchemlib.js",
   "./vendor/pdf.min.mjs",

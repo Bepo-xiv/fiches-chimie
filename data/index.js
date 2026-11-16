@@ -9,6 +9,8 @@ import r6 from './r6-transpositions.js';
 import r7 from './r7-couplages.js';
 import r8 from './r8-protections.js';
 import r9 from './r9-radicalaire-medchem.js';
+import r10 from './r10-classiques-carbonyles.js';
+import r11 from './r11-classiques-divers.js';
 
 export { GROUPS, CATEGORIES, CONFIDENCE } from './groups.js';
-export const REACTIONS = [...r1, ...r2, ...r3, ...r4, ...r5, ...r6, ...r7, ...r8, ...r9];
+export const REACTIONS = [...r1, ...r2, ...r3, ...r4, ...r5, ...r6, ...r7, ...r8, ...r9, ...r10, ...r11];

@@ -57,3 +57,27 @@ test('réactifs : fiches complètes, noms uniques, liens valides', () => {
     assert.ok(r.cited?.length, `« ${r.name} » n’est rattaché à aucune rubrique de la fiche de référence`);
   }
 });
+
+test('index : chaque réaction citée a une fiche détaillée ou un résumé', async () => {
+  const { missingSummaries, unusedSummaries, SUMMARY_ERRORS, SUMMARY_COUNT, summaryFor } = await import('../data/resumes.js');
+  assert.deepEqual(SUMMARY_ERRORS, []);
+  assert.deepEqual(missingSummaries(), []);
+  assert.deepEqual(unusedSummaries(), [], 'résumés dont le nom ne correspond à aucune réaction de l’index');
+  assert.ok(SUMMARY_COUNT > 1350, `seulement ${SUMMARY_COUNT} résumés`);
+  for (const s of RX_INDEX) for (const g of s.groups) for (const it of g.items) {
+    const r = summaryFor(it.name);
+    if (!r) continue;
+    assert.ok(r.what.length > 8, `« ${it.name} » : description trop courte`);
+    assert.ok(r.how.length > 0, `« ${it.name} » : conditions trop courtes`);
+  }
+  assert.match(summaryFor('Nazarov').what, /cyclopenténone/);
+  assert.match(summaryFor('Finkelstein (échange d\'halogène)').how, /NaI/);
+});
+
+test('index : le tableau des groupes protecteurs ne déborde plus dans H1', () => {
+  const H1 = RX_INDEX.find((s) => s.code === 'H1');
+  assert.ok(H1.groups.every((g) => g.label), 'groupe sans titre dans H1');
+  assert.ok(H1.groups.every((g) => g.items.every((i) => i.name.length < 90)), 'entrée anormalement longue dans H1');
+  const G = RX_INDEX.find((s) => s.code === 'G');
+  assert.ok(G.groups.some((g) => g.label === 'Acide boronique'));
+});

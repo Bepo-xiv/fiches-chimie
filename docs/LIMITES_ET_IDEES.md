@@ -4,9 +4,13 @@
 
 **Contenu**
 
-- 90 fiches : large, mais pas exhaustif. Absents notamment : hétérocycles (Fischer, Paal-Knorr, Hantzsch),
-  chimie des sucres et des peptides en détail, organocatalyse, photoredox, C–H activation, Kumada, Hiyama,
-  Ullmann, Chan-Lam, Mannich, Stork, Corey-Fuchs, Julia, Peterson, Shapiro, Favorskii, Wolff, Nazarov.
+- 120 fiches détaillées : large, mais pas exhaustif. Absents notamment : chimie des sucres et des peptides en détail,
+  organocatalyse, photoredox, activation C–H, Hiyama, Ullmann, Chan-Lam, Shapiro, Wolff, Hantzsch, Skraup,
+  Pauson-Khand, McMurry, Bischler-Napieralski, Passerini et Ugi.
+- Les 30 fiches du lot « classiques » (fichiers `data/r10-*.js` et `data/r11-*.js`) ont été ajoutées en une fois :
+  leurs flèches ont été contrôlées atome par atome et quelques-unes vues à l’écran, mais pas toutes. Dans les étapes
+  de cyclisation (Fischer, Nazarov, Pictet-Spengler, Favorskii), la molécule est dessinée dépliée : la flèche qui
+  ferme le cycle est longue. Réduction CBS et couplage de Kumada : mécanisme décrit en texte, sans flèches.
 - Les fiches sont rédigées de mémoire d'après les connaissances de cours : chacune porte un niveau de confiance
   et une référence **à vérifier**. Les quantités, températures et durées sont des ordres de grandeur typiques,
   pas des protocoles : ne jamais manipuler sans consulter la littérature et les fiches de sécurité.
@@ -19,8 +23,16 @@
 
 **Fiche de référence (écrans Réactifs et Index)**
 
-- L'index mentionne toutes les réactions citées dans la fiche de référence (plus de 1 700 noms distincts), mais seules
-  les 90 réactions de la base ont une fiche détaillée : les autres sont listées sans description.
+- L'index mentionne toutes les réactions citées dans la fiche de référence (environ 1 560 noms distincts), mais seules
+  les 120 réactions de la base ont une fiche détaillée avec schéma et mécanisme. Les autres (environ 1 350) ont un
+  résumé d'une ligne — ce que fait la réaction, réactifs et conditions — sans structure dessinée ni mécanisme
+  (`data/resumes-*.js`). Un test échoue si une réaction citée n'a ni fiche ni résumé.
+- Ces résumés sont rédigés de mémoire et n'ont pas été relus contre la littérature. Les réactions rares ou anciennes
+  (surtout celles citées seulement dans l'index alphabétique) sont les moins sûres : une erreur de réactif ou
+  d'attribution de nom y est possible.
+- Quand le document cite un fragment (« des anhydrides », « aza- »), le résumé précise de quoi il s'agit. Le tableau
+  des groupes protecteurs qui débordait dans la section H1 a été remis dans la section G, et les entrées tronquées
+  de H1 (« ester », « amide »…) ont été réécrites en clair (« acide → ester », « nitrile → amide »…).
 - Les 230 fiches réactifs couvrent tous les noms de la Liste 2 ; les sels jumeaux (même anion, cation différent),
   les variantes isotopiques et quelques familles très proches partagent une fiche. Un test (`tests/reference.test.mjs`)
   échoue si un réactif cité n'est rattaché à aucune fiche.

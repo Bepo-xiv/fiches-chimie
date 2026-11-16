@@ -29,6 +29,15 @@ halogenation radicalaire des alcanes=halogenation-radicalaire | wohl-ziegler=woh
 addition de hbr anti-markovnikov=hbr-radicalaire | addition radicalaire de hbr=hbr-radicalaire | couplage peptidique=amide-coupling | amination reductrice=amination-reductrice
 cuaac=cuaac | cycloaddition azoture-alcyne=cuaac | huisgen=cuaac | nitro → amine=nitro-reduction | bechamp=nitro-reduction | zinin=nitro-reduction
 assistance anchimerique=anchimerique | michaelis-arbuzov=hwe | hydratation=hydratation | transposition allylique=wohl-ziegler | cyanhydrines=aldol
+mannich=mannich | henry=henry | strecker=strecker | cannizzaro=cannizzaro | reformatsky=reformatsky | benzoine=benzoine
+corey-chaykovsky=corey-chaykovsky | johnson-corey-chaykovsky=corey-chaykovsky | stork=stork-enamine | enamines de stork=stork-enamine
+peterson=peterson | julia=julia-kocienski | julia-kocienski=julia-kocienski | julia-lythgoe=julia-kocienski | corey-fuchs=corey-fuchs
+morita-baylis-hillman=baylis-hillman | baylis-hillman=baylis-hillman | finkelstein=finkelstein | reaction haloforme=haloforme | haloforme=haloforme
+lieben=haloforme | iodoforme=haloforme | hell-volhard-zelinsky=hvz | vilsmeier-haack=vilsmeier | oxymercuration- demercuration=oxymercuration
+alcoxymercuration=oxymercuration | hofmann-sand=oxymercuration | simmons-smith=simmons-smith | cyclopropanation=simmons-smith
+pcc=pcc | corey-suggs=pcc | meerwein-ponndorf-verley=mpv | oppenauer=mpv | corey-bakshi-shibata=cbs | cbs=cbs | corey-itsuno=cbs | reduction cbs=cbs
+favorskii=favorskii | nazarov=nazarov | fischer@H2=fischer-indole | paal-knorr=paal-knorr | pictet-spengler=pictet-spengler
+azoture → amine=staudinger | staudinger=staudinger | steglich=steglich | ritter=ritter | kumada-corriu=kumada
 `;
 
 /** Clé de comparaison d'un nom de réaction. */
